@@ -14,8 +14,16 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import ToolBarCom from '../ToolBarCom/ToolBarCom';
+import { Link } from 'react-router-dom';
+import './SideBar.css'
 
-const drawerWidth = 240;
+// import { primary } from '@mui/material/colors';
+
+import logo from '../../images/logo.svg'
+import { Button } from '@mui/material';
+import SideBarItems from './SideBarItems';
+
+const drawerWidth = 280;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
     ({ theme, open }) => ({
@@ -91,21 +99,18 @@ export default function SideBar() {
             >
                 <Divider />
                 <List>
-                    {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-                        <ListItem key={text} disablePadding>
-                            <ListItemButton>
-                                <ListItemIcon>
-                                    {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                                </ListItemIcon>
-                                <ListItemText primary={text} />
-                            </ListItemButton>
-                        </ListItem>
-                    ))}
+                    <ListItem>
+                        <Link to='/'>
+                            <img src={logo} alt="logo" />
+                        </Link>
+                    </ListItem>
                 </List>
+                <SideBarItems />
             </Drawer>
             <Main open={open}>
                 <DrawerHeader />
-                <Typography paragraph>
+                <Typography paragraph >
+                    <Button variant='contained' color='third' > click hare </Button>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non
                     enim praesent elementum facilisis leo vel. Risus at ultrices mi tempus

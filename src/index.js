@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createTheme } from '@mui/material';
 import { ThemeProvider } from '@emotion/react';
 import { BrowserRouter } from 'react-router-dom';
+import { deepOrange, lightBlue } from '@mui/material/colors';
 
 
 const theme = createTheme({
@@ -16,10 +17,11 @@ const theme = createTheme({
     },
     third: {
       main: 'rgb(3, 201, 215)',
+      main: lightBlue[300],
       contrastText: '#fff',
     },
     fourth: {
-      main: 'rgb(251, 150, 120)',
+      main: deepOrange[300],
       contrastText: '#fff',
     },
   },

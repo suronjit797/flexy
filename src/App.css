@@ -1,7 +1,25 @@
-body{
+body {
   background-color: rgb(250, 251, 251) !important;
 }
 
-.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
   border: transparent;
+}
+
+.nav_list-header {
+  opacity: .4;
+  text-transform: uppercase;
+  margin: 15px 0;
 }
