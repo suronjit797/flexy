@@ -16,7 +16,7 @@ import './SideBar.css'
 import logo from '../../images/logo.svg'
 import SideBarItems from './SideBarItems';
 import Modern from '../../Pages/Modern/Modern';
-
+import useMediaQuery from '@mui/material/useMediaQuery';
 const drawerWidth = 280;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
@@ -65,8 +65,13 @@ const DrawerHeader = styled('div')(({ theme }) => ({
 }));
 
 export default function SideBar() {
+    const matches = useMediaQuery('(min-width:600px)');
     const [open, setOpen] = React.useState(true);
     const [search, setSearch] = React.useState(true);
+
+    React.useEffect(() => {
+        setOpen(matches)
+    }, [matches])
 
     return (
         <Box sx={{ display: 'flex' }}>

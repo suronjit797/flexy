@@ -56,7 +56,7 @@ export default function ModernBottom() {
     return (
         <Box sx={{ flexGrow: 1, padding: '15px 0' }}>
             <Grid container spacing={4} className='modern_card' >
-                <Grid item md={4}>
+                <Grid item md={4} xs={9}>
                     <Item elevation={0} className='card_item1  h-100' sx={{ padding: 0, overflow: 'hidden', borderRadius: '20px', textAlign: 'left' }} >
                         <Card className=' h-100'>
                             <CardMedia
@@ -89,7 +89,7 @@ export default function ModernBottom() {
                         </Card>
                     </Item>
                 </Grid>
-                <Grid item md={4}>
+                <Grid item md={4} xs={9}>
                     <Item className='card_item h-100'>
                         <div>
                             <div className="d-flex content-between items-center">
@@ -134,7 +134,7 @@ export default function ModernBottom() {
                     </Item>
                 </Grid>
 
-                <Grid item md={4}>
+                <Grid item md={4} xs={9}>
                     <Item className='card_item h-100'>
                         <div>
                             <div className="d-flex content-between items-center">

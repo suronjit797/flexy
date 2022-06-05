@@ -74,7 +74,7 @@ export default function ModernRevenue() {
     return (
         <Box sx={{ flexGrow: 1, padding: '15px 0' }}>
             <Grid container spacing={5} className='modern_card' >
-                <Grid item md={8}>
+                <Grid item md={8} xs={9}>
                     <Item elevation={0} className='card_item h-100' >
 
                         <div className="d-flex content-between ">
@@ -115,7 +115,7 @@ export default function ModernRevenue() {
                         </ResponsiveContainer>
                     </Item>
                 </Grid>
-                <Grid item md={4}>
+                <Grid item md={4} xs={9}>
                     <Item className='card_item mb-20' sx={{ backgroundColor: lightBlue[300] }} >
                         <h3 className='text-white' style={{ marginTop: '0' }}> Monthly Earnings </h3>
                         <ResponsiveContainer width='100%' aspect={3}>

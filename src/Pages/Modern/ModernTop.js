@@ -22,7 +22,7 @@ export default function ModernTop() {
     return (
         <Box sx={{ flexGrow: 1, padding: '15px 0' }}>
             <Grid container spacing={5} className='modern_card' >
-                <Grid item md={5}>
+                <Grid item md={5} xs={9}>
                     <Item elevation={0} className='card_item before' >
                         <Box sx={{ position: 'relative' }}>
                             <div>
@@ -33,7 +33,7 @@ export default function ModernTop() {
                         </Box>
                     </Item>
                 </Grid>
-                <Grid item md={3}>
+                <Grid item md={3} xs={9}>
                     <Item className='card_item'>
                         <div>
                             <div className="d-flex purchase_Card">
@@ -45,7 +45,7 @@ export default function ModernTop() {
                         </div>
                     </Item>
                 </Grid>
-                <Grid item md={4}>
+                <Grid item md={4} xs={9}>
                     <Item className='card_item'>
                         <div>
                             <div className="d-flex purchase_Card">

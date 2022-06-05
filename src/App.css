@@ -91,3 +91,11 @@ a:hover {
 .text-white{
   color: #fff;
 }
+
+.rechart .recharts-wrapper{
+  width: 100% !important;
+}
+
+.rechart .recharts-wrapper svg{
+  width: 100%;
+}

@@ -1,13 +1,6 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined'; import { Button, Drawer } from '@mui/material';
 import ShoppingItems from './ShoppingItems';
 import cart1 from '../../images/cart1.jpg'

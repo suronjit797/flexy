@@ -75,7 +75,7 @@ export default function ModernSales() {
     return (
         <Box sx={{ flexGrow: 1, padding: '15px 0' }}>
             <Grid container spacing={5} className='modern_card' >
-                <Grid item md={6}>
+                <Grid item md={6} xs={9}>
                     <Item elevation={0} className='card_item h-100' >
                         <div className="d-flex content-between items-center">
                             <h3> Daily Activities </h3>
@@ -86,7 +86,7 @@ export default function ModernSales() {
                         </div>
                     </Item>
                 </Grid>
-                <Grid item md={6}>
+                <Grid item md={6} xs={9}>
                     <Item className='card_item mb-20' sx={{ height: '100%' }} >
                         <div className="d-flex content-between items-center">
                             <h3> Sales Overview </h3>
