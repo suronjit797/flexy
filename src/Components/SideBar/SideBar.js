@@ -14,7 +14,6 @@ import './SideBar.css'
 // import { primary } from '@mui/material/colors';
 
 import logo from '../../images/logo.svg'
-import { Button } from '@mui/material';
 import SideBarItems from './SideBarItems';
 import Modern from '../../Pages/Modern/Modern';
 

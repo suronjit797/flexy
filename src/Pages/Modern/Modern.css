@@ -10,12 +10,8 @@
     margin: 0;
 }
 
-.modern_card {
-    align-items: stretch;
-}
 
 .modern_card .card_item {
-    height: 100%;
     position: relative;
     border-radius: 20px;
     text-align: left;

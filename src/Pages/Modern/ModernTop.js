@@ -20,7 +20,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function BasicGrid() {
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{ flexGrow: 1, padding: '15px 0' }}>
             <Grid container spacing={5} className='modern_card' >
                 <Grid item md={5}>
                     <Item elevation={0} className='card_item before' >
