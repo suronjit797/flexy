@@ -1,0 +1,38 @@
+.purchase_Card button {
+    margin-left: auto;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    min-width: auto;
+}
+
+.purchase_Card h4 {
+    margin: 0;
+}
+
+.modern_card {
+    align-items: stretch;
+}
+
+.modern_card .card_item {
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
+    text-align: left;
+    padding: 30px;
+    overflow: hidden;
+    color: rgb(38, 38, 38);
+}
+
+.modern_card .card_item.before::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../../images/cardImage.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
