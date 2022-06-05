@@ -173,7 +173,7 @@ export default function ModernProducts() {
                                             </TableCell>
                                             <TableCell>{row.name}</TableCell>
                                             <TableCell>
-                                                <small class='dib table_span' style={{ backgroundColor: backgroundColor(row.priority) }}> {row.priority} </small>
+                                                <small className='dib table_span' style={{ backgroundColor: backgroundColor(row.priority) }}> {row.priority} </small>
                                             </TableCell>
                                             <TableCell>{row.budget}</TableCell>
                                         </TableRow>

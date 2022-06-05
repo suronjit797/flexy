@@ -18,7 +18,7 @@ const Item = styled(Paper)(({ theme }) => ({
     color: theme.palette.text.secondary,
 }));
 
-export default function BasicGrid() {
+export default function ModernTop() {
     return (
         <Box sx={{ flexGrow: 1, padding: '15px 0' }}>
             <Grid container spacing={5} className='modern_card' >
