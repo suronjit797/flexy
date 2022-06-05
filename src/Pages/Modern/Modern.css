@@ -32,3 +32,16 @@
     background-repeat: no-repeat;
     background-position: center right;
 }
+
+
+.tableAvatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.table_span{
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: #fff;
+}

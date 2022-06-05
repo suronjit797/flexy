@@ -67,7 +67,7 @@ const Item = styled(Paper)(({ theme }) => ({
     color: theme.palette.text.secondary,
 }));
 
-export default function BasicGrid() {
+export default function ModernRevenue() {
     const [year, setYear] = React.useState('March 2021');
 
 

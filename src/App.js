@@ -3,7 +3,7 @@ import Index from './Pages/Index';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Index />
       
     </div>
