@@ -50,9 +50,7 @@ const ToolBarCom = ({ open, setOpen, search, setSearch }) => {
                         margin: '0 5px'
                     }}
                     color="inherit"
-                    aria-label="open drawer"
                     onClick={() => setCart(!cart)}
-                    edge="start"
                 >
                     <ShoppingCartOutlinedIcon />
                     <CartDrawer cart={cart} setCart={setCart} />

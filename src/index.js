@@ -16,7 +16,6 @@ const theme = createTheme({
       contrastText: 'rgb(148, 157, 178)',
     },
     third: {
-      main: 'rgb(3, 201, 215)',
       main: lightBlue[300],
       contrastText: '#fff',
     },
